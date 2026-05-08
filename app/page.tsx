@@ -27,9 +27,9 @@ export default function Home() {
               <span className="font-label-caps text-label-caps text-primary bg-primary/10 px-xs py-1 border border-primary/30">SYSTEM STATUS: READY_FOR_DEPLOY</span>
               <h1 className="font-h1 text-3xl md:text-h1 text-on-surface tracking-tight leading-tight"><span className="text-primary">Turn your AI prototype</span> into a launch-ready MVP.</h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">The bridge between "I generated something" and "I can trust this as a real product." No engineers required.</p>
-              <div className="flex flex-col sm:flex-row gap-xs mt-lg max-w-md">
-                <input className="flex-grow border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary bg-surface-container-lowest text-on-surface font-body-md p-sm rounded-none" placeholder="Enter your email" type="email"/>
-                <button className="bg-primary text-on-primary font-label-caps text-label-caps px-md py-sm hover:brightness-110 transition-all">Join the Waitlist</button>
+              <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-3 mt-lg max-w-full w-full mx-auto md:mx-0">
+                <input className="w-full min-h-[48px] border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary bg-surface-container-lowest text-on-surface font-body-md p-sm rounded-none" placeholder="Enter your email" type="email"/>
+                <button className="w-full sm:w-auto bg-primary text-on-primary font-label-caps text-label-caps px-md py-sm hover:brightness-110 transition-all whitespace-nowrap">Join the Waitlist</button>
               </div>
               <div className="flex items-center gap-sm pt-md">
                 <div className="flex -space-x-2">
@@ -247,9 +247,9 @@ export default function Home() {
             <span className="font-label-caps text-label-caps text-primary">GET STARTED</span>
             <h2 className="font-h1 text-3xl md:text-h1 text-on-surface mt-sm mb-md tracking-tight leading-tight">Ready to stop tinkering and start launching?</h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-xl">Join the waitlist to get priority access to our AI audit tools and expert fix sprints. The bridge to a real product starts here.</p>
-            <div className="flex flex-col sm:flex-row gap-xs max-w-md mx-auto shadow-2xl shadow-primary/10">
-              <input className="flex-grow border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary bg-surface-container-lowest text-on-surface font-body-md p-sm" placeholder="Enter your email" type="email"/>
-              <button className="bg-primary text-on-primary font-label-caps text-label-caps px-md py-sm hover:brightness-110 transition-all">Join the Waitlist</button>
+            <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-3 max-w-full mx-auto w-full">
+              <input className="w-full min-h-[48px] border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary bg-surface-container-lowest text-on-surface font-body-md p-sm" placeholder="Enter your email" type="email"/>
+              <button className="w-full sm:w-auto bg-primary text-on-primary font-label-caps text-label-caps px-md py-sm hover:brightness-110 transition-all whitespace-nowrap">Join the Waitlist</button>
             </div>
             <p className="mt-md font-body-sm text-body-sm text-on-surface-variant opacity-60 flex items-center justify-center gap-xs">
               <span className="material-symbols-outlined text-sm">lock</span>
