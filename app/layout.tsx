@@ -5,13 +5,7 @@ import "./globals.css";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
-});
-
-const plusJakartaSans = Plus_Jakarta_Sans({
-  variable: "--font-plus-jakarta-sans",
-  subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -21,8 +15,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NoCodePilot - Launch Readiness for AI MVPs",
-  description: "Launch Readiness for AI MVPs",
+  title: "NoCodePilot - Precision Engineering for AI MVPs",
+  description: "The bridge between AI prototypes and launch-ready products. Expert audit and fix sprints for solo founders.",
 };
 
 export default function RootLayout({
@@ -31,16 +25,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
         />
-        <meta name="theme-color" content="#00FFCC" />
+        <meta name="theme-color" content="#212F79" />
       </head>
       <body
-        className={`${inter.variable} ${plusJakartaSans.variable} ${jetbrainsMono.variable} bg-background text-on-surface font-body-md overflow-x-hidden antialiased`}
+        className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
         {children}
       </body>

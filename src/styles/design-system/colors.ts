@@ -1,0 +1,68 @@
+export const colors = {
+  primary: {
+    50: '#EEF0F9',
+    100: '#DDE1F3',
+    200: '#BBC3E7',
+    300: '#99A5DB',
+    400: '#5569C3',
+    500: '#212F79', // Brand Primary
+    600: '#1D2A6D',
+    700: '#162052',
+    800: '#0F1536',
+    900: '#070B1B',
+    DEFAULT: '#212F79',
+  },
+  secondary: {
+    50: '#FFF3EB',
+    100: '#FFE7D6',
+    200: '#FFCEAD',
+    300: '#FFB685',
+    400: '#FF8732', // Brand Secondary
+    500: '#E67A2D',
+    600: '#B35E23',
+    700: '#804419',
+    800: '#4D290F',
+    900: '#1A0E05',
+    DEFAULT: '#FF8732',
+  },
+  neutral: {
+    50: '#F8FAFC',
+    100: '#F1F5F9',
+    200: '#E2E8F0',
+    300: '#CBD5E1',
+    400: '#94A3B8',
+    500: '#64748B',
+    600: '#475569',
+    700: '#334155',
+    800: '#1E293B',
+    900: '#0F172A',
+    950: '#020617',
+  },
+  success: {
+    50: '#ECFDF5',
+    500: '#10B981',
+    600: '#059669',
+    DEFAULT: '#10B981',
+  },
+  warning: {
+    50: '#FFFBEB',
+    500: '#F59E0B',
+    600: '#D97706',
+    DEFAULT: '#F59E0B',
+  },
+  error: {
+    50: '#FEF2F2',
+    500: '#EF4444',
+    600: '#DC2626',
+    DEFAULT: '#EF4444',
+  },
+  info: {
+    50: '#EFF6FF',
+    500: '#3B82F6',
+    600: '#2563EB',
+    DEFAULT: '#3B82F6',
+  },
+  background: '#FFFFFF',
+  surface: '#F8FAFC',
+  overlay: '#212F79D6', // 84% opacity blue
+};
